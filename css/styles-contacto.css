@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 29);
+}
+header {
+    background-image: url(../img/fondocontacto.jpg);
+    height: 800px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 100px;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    backdrop-filter: blur(2px);
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 15px;
+
+}
+nav ul a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    padding: 10px;
+}
+nav ul a:hover {
+    text-transform: underline white 1px solid;
+    background-color: rgba(20, 14, 46, 0.521);
+    border-radius: 15px;
+    border: 1px white solid;
+    padding: 9px;
+}
+nav img {
+    height: 65px;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.39);
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.formulario legend {
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.formulario label {
+    margin: 0px 25px;
+}
+.formulario input {
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    padding: 3px;
+}
+.formulario select {
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+}
+.formulario ::placeholder {
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+}
+.formulario select option {
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+}
+.formulario textarea {
+    margin-top: 15px;
+    margin-right: 25px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+}
+.igfb {
+    flex-direction: row;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.imgigfb {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 20px;
+}
+.entrada a {
+    color: white;
+}
+.textarea {
+    display: flex;
+    align-items: center;
+    
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn input {
+    padding: 10px;
+}
+.btn input:hover {
+    background-color: rgba(128, 128, 128, 0.568);
+}
+.entrada {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.facebooklogo {
+    height: 46px;
+}
+.instagramlogo {
+    height: 50px;
+}
+.derechos {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 6px;
+ }
