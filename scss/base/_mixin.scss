@@ -1,0 +1,20 @@
+@mixin headermain{
+    height: 800px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@mixin navmain{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 100px;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    backdrop-filter: blur(2px);
+    z-index: 2;
+}
